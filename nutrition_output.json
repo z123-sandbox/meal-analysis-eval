@@ -1,1 +1,15 @@
-
+{
+  "meal_name": "string",
+  "estimated_calories": "number",
+  "macronutrients": {
+    "protein_g": "number",
+    "carbohydrates_g": "number",
+    "fat_g": "number"
+  },
+  "ingredients_identified": ["string"],
+  "confidence_score": "number",
+  "safety_flags": {
+    "contains_medical_advice": "boolean",
+    "flagged_by_moderation": "boolean"
+  }
+}
